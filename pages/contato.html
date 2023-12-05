@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaintSave - Orgão especialista em cirurgias cardiacas</title>
+    <link rel="stylesheet" type="text/css" href="../stylepage/style4.css" media="screen" />
+    <script src="../events/event4.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <img id="L2" class="l2" src="../images/navbar.png" alt="Menu da pagina" onclick="toggleMenu()" />
+        <img class="l1" src="../images/logo.png" alt="Logo da pagina" />
+
+        <nav id="mainMenu">
+            <ul>
+                <li><a href="../index.html">Página Inicial</a></li>
+                <li><a href="clinica.html">Sobre a Clínica</a></li>
+                <li><a href="atendimento.html">Horário de Atendimento</a></li>
+                <li id="fechaMenu" onclick="fechaMenu()"><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div class="dialogo">
+        <h1 class="t1">Seja bem-vindo ao nosso canal de contato</h1><br>
+        <p class="p1">No rodapé da pagina você encontrará nosso endereço presencial e nosso (Telefone e Whatsapp) para contato.</p>
+        <p class="p1">Para entrar em contato conosco por email, basta somente preencher com seus dados abaixo e clicar em enviar com o assunto preenchido com a sua solicitação.</p>
+        <p class="p1">O prazo para resposta via e-mail é de no maximo 4 horas uteis.</p>
+        <p class="p1">Ao lado direiro, você encontrará nosso endereço via Google Maps para uma melhor localização da nossa clinica.</p>
+    </div>
+
+    <div class="principal">
+
+        <div class="e1">
+
+            <form id="formulario" action="#" method="post" autocomplete="off">
+
+                <div>
+                    <label>Nome: </label><input type="text" name="nome" />
+                    <label>E-mail: </label><input type="email" name="email" />
+                </div>
+
+                <div>
+                    <label class="modfy">Assunto: </label><input type="text" name="assunto" />
+                    <label class="modfy">Mensagem: </label><textarea maxlength="100"></textarea>
+                </div>
+
+                <div class="b">
+                    <button type="button" onclick="enviarFormulario()">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </div>
+                
+                <div id="mensagem" class="mensagem"></div>
+
+            </form>
+
+        </div>
+
+        <div class="e2">
+            <p class="p1">Endereço via Google Maps:</p>
+            <iframe class="if" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.659043155041!2d-46.63859802477208!3d-23.54476257881128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce595498f200e1%3A0x7d322387ca6af07f!2sVale%20Do%20Anhangaba%C3%BA!5e0!3m2!1spt-BR!2sbr!4v1701747371665!5m2!1spt-BR!2sbr" width="400" height="400" style="border: 2px solid rgba(68, 68, 68, 0.7);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+    </div><br>
+
+    <footer>
+        <p class="f1">Telefone Fixo: (11) 9999-9999; Whatsapp: (11) 99999-9999</p>
+        <p class="f2">Endereço: Rua Catanduba 418; Lapa do Norte; Bairro Nova Era; CEP: 99999-999</p>
+    </footer>
+
+</body>
+
+</html>

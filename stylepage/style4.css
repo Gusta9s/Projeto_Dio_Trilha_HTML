@@ -1,0 +1,162 @@
+header {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid rgba(96, 96, 96, 0.1);
+    border-radius: 15px;
+    width: 96%;
+    transition: background-color 0.3s ease;
+    position: fixed;
+    top: 10px;
+    padding: 4px;
+    z-index: 999;
+    left: 2%;
+}
+
+.l1 {
+    width: 100px;
+    border-radius: 15px;
+}
+
+.l2 {
+    width: 60px;
+    border-radius: 15px;
+}
+
+#mainMenu {
+    display: none;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    background-color: transparent;
+    border: 2px solid rgba(96, 96, 96, 0.1);
+    border-radius: 15px;
+    z-index: 2;
+    padding-top: 60px;
+    transition: background-color 0.3s ease;
+    background-color: white;
+}
+
+#mainMenu ul {
+    list-style: none;
+    padding: 0;
+    display: list-item;
+}
+
+#mainMenu ul li {
+    margin-right: 10px;
+}
+
+#mainMenu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    line-height: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#mainMenu a:hover {
+    color: #8d8d8d;
+}
+
+footer {
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    border: 2px solid rgba(96, 96, 96, 0.1);
+    border-radius: 15px;
+    width: 96%;
+    margin-left: 35px;
+    margin-bottom: 10px;
+    height: 100px;
+}
+
+.f1, .f2 {
+    margin-top: 40px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.principal {
+    margin-top: 30px;
+    display: flex;
+}
+
+.e1 {
+    margin-left: 3%;
+    margin-right: 1%;
+    width: 50%;
+    display: block;
+    padding: 10px;
+    border-right: 2px solid black;
+}
+
+.e1 div {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 50px;
+    
+}
+
+.e1 input {
+    width: 200px;
+    height: 30px;
+}
+
+.e1 textarea {
+    width: 200px;
+    height: 200px;
+    resize: none;
+}
+
+.modfy {
+    margin-left: 11px;
+}
+
+.b button {
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: white;
+    width: 20%;
+}
+
+.e1 label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.mensagem {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.dialogo {
+    display: block;
+    margin-top: 150px;
+}
+
+.t1 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.p1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 70px;
+}
+
+.e2 {
+    display: block;
+}
+
+.if {
+    border-radius: 20px;
+}
